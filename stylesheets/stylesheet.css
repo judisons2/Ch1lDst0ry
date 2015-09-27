@@ -1,0 +1,94 @@
+
+#brick {
+  
+  display:block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+	
+}
+
+#services_block {
+  
+  border: 1px solid #CCCCCC;
+  background-color : white;
+  height : 260px;
+  border-radius: 0;
+  letter-spacing: 2px;
+  
+}
+
+.seamless span{
+    background-color: #FFF;
+}
+
+.seamless input{
+    border-right-style:none;
+}
+
+.btn {
+  
+    color : white;
+	background-color: #f29030;
+	border-radius: 0;
+	width: 80%;
+	
+}
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
+    padding: 5px;
+}
+.table-condensed1>thead>tr>th, .table-condensed1>tbody>tr>th, .table-condensed1>tfoot>tr>th, .table-condensed1>thead>tr>td, .table-condensed1>tbody>tr>td, .table-condensed1>tfoot>tr>td{
+    padding: 2px;
+}
+.tabletd {
+	padding-top:12px;
+}
+.cheav {
+    font-weight: bold;
+	color : #f29030;
+	font-size: 20px;
+}
+
+#monthChart {
+	width : 100%;
+	
+}
+#monthChart .line {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+
+#monthChart .axis {
+	shape-rendering: auto;
+}
+
+#monthChart .x.axis line {
+	stroke: white;
+}
+
+#monthChart .x.axis .minor {
+	stroke-opacity: 0;
+}
+
+#monthChart .x.axis path {
+  display: none;
+}
+
+#monthChart .y.axis line, .y.axis path {
+  fill: none;
+  stroke: white;
+}
+
+#monthChart .axis path,
+#monthChart .axis line {
+  fill: none;
+  stroke: white;
+  shape-rendering: crispEdges;
+}
+
+#monthChart .x.axis text {
+  font-family: 'Lato', sans-serif;
+  fill: gray;
+  overflow :hidden;
+ 
+}
